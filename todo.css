@@ -7,7 +7,8 @@
 .container{
 	min-width:100%;
 	 min-height: 100vh;
-	 background: linear-gradient(135deg, #153677,#4e085f);
+	 /* background: linear-gradient(135deg, #153677,#4e085f); */
+	 background: #051b35;
 	 padding: 10px;
 }
 .todo-app{
@@ -20,10 +21,14 @@
 
 }
 .todo-app h2{
-	color:#002765;
+	
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #051b35 !important;
+    font-weight: 700;
+    font-size: 30px;
 
 }
 .todo-app h2 img{
@@ -50,7 +55,7 @@ button{
 	border:none;
 	outline: none;
 	padding: 16px 50px;
-	background: #ff5945;
+	background: #051b35;
 	color: white;
 	font-size: 16px;
 	cursor: pointer;
